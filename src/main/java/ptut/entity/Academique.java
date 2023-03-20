@@ -25,6 +25,9 @@ public class Academique {
     private String IdPromo;
 
     @Column(nullable = false)
+    private String Semestre;
+
+    @Column(nullable = false)
     private String Etablissement;
 
     @Column(nullable = false)

@@ -14,6 +14,7 @@ CREATE TABLE Promotion (
 CREATE TABLE Academique (
     NumINU INT FOREIGN KEY,
     IdPromo VARCHAR(4) FOREIGN KEY,
+    Semestre VARCHAR(25),
     Etablissement VARCHAR(25),
     Ville VARCHAR(25),
     Pays VARCHAR(25),
